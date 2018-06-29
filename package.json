@@ -1,0 +1,28 @@
+{
+  "name": "@axel92/time-series-streams",
+  "version": "0.0.1",
+  "description": "time series with streams",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard --fix && tap test/*test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Axel92Dev/time-series-streams.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Axel92Dev/time-series-streams/issues"
+  },
+  "homepage": "https://github.com/Axel92Dev/time-series-streams#readme",
+  "devDependencies": {
+    "standard": "^10.0.3",
+    "tap": "^11.0.0"
+  },
+  "dependencies": {
+    "@axel92/time-series": "^0.4.0",
+    "docker-namesgenerator": "0.0.1",
+    "mongodb": "^2.2.33"
+  }
+}
